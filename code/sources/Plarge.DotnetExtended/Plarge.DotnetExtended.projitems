@@ -9,6 +9,7 @@
     <Import_RootNamespace>Plarge.DotnetExtended</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Extensions\DateTimeExtensions.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Extensions\StringExtensions.cs" />
   </ItemGroup>
 </Project>

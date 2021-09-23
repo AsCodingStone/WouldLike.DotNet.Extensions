@@ -9,6 +9,7 @@
     <Import_RootNamespace>Plarge.DotnetExtended.Tests</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)DateTimeExtensionTests.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)StringExtensionTests.cs" />
   </ItemGroup>
 </Project>
