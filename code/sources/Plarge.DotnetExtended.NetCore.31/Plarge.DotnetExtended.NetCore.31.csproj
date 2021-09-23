@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Plarge.DotnetExtended.NetCore._31</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\Plarge.DotnetExtended\Plarge.DotnetExtended.projitems" Label="Shared" />
+
+</Project>

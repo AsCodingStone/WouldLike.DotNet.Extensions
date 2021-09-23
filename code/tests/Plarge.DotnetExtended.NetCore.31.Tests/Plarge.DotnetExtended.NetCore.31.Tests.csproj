@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Plarge.DotnetExtended.NetCore._31.Tests</RootNamespace>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NFluent" Version="2.7.2" />
+    <PackageReference Include="NUnit" Version="3.12.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.16.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\sources\Plarge.DotnetExtended.NetCore.31\Plarge.DotnetExtended.NetCore.31.csproj" />
+  </ItemGroup>
+
+  <Import Project="..\Plarge.DotnetExtended.Tests\Plarge.DotnetExtended.Tests.projitems" Label="Shared" />
+
+</Project>
