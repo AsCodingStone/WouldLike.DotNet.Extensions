@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>WouldLike.Extensions.NetCore</RootNamespace>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <Copyright>Copyright ©  2022</Copyright>
+    <Company>AsCodingStone</Company>
+  </PropertyGroup>
+
+  <Import Project="..\WouldLike.Extensions\WouldLike.Extensions.projitems" Label="Shared" />
+
+</Project>

@@ -1,37 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31321.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sources", "sources", "{FC385B94-6923-4127-B9EF-8C68E454985E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8BA5D017-ABFE-40D6-87E6-5FC54169782C}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Plarge.DotnetExtended", "sources\Plarge.DotnetExtended\Plarge.DotnetExtended.shproj", "{AEF0D94B-C319-48E1-A888-D6FA62C9AC36}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WouldLike.Extensions", "sources\WouldLike.Extensions\WouldLike.Extensions.shproj", "{AEF0D94B-C319-48E1-A888-D6FA62C9AC36}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "platforms", "platforms", "{BA18D8A3-EC7B-4F3D-A937-D9A115BB8EE5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plarge.DotnetExtended.NetCore.31", "sources\Plarge.DotnetExtended.NetCore.31\Plarge.DotnetExtended.NetCore.31.csproj", "{4F75703F-EC5C-4595-B905-EAFD73B68E0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WouldLike.Extensions.NetCore.31", "sources\WouldLike.Extensions.NetCore.31\WouldLike.Extensions.NetCore.31.csproj", "{4F75703F-EC5C-4595-B905-EAFD73B68E0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plarge.DotnetExtended.NetFramework.40", "sources\Plarge.DotnetExtended.NetFramework.40\Plarge.DotnetExtended.NetFramework.40.csproj", "{648A37C2-2150-431D-AE9C-902ADF96F5A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WouldLike.Extensions.NetFramework.40", "sources\WouldLike.Extensions.NetFramework.40\WouldLike.Extensions.NetFramework.40.csproj", "{648A37C2-2150-431D-AE9C-902ADF96F5A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "platforms", "platforms", "{D10D5655-7C5F-4ED6-B5CD-41A663E0B0DE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plarge.DotnetExtended.NetCore.31.Tests", "tests\Plarge.DotnetExtended.NetCore.31.Tests\Plarge.DotnetExtended.NetCore.31.Tests.csproj", "{F31EAE71-4BA5-4EDC-99AF-52847D36C380}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WouldLike.Extensions.NetCore.31.Tests", "tests\WouldLike.Extensions.NetCore.31.Tests\WouldLike.Extensions.NetCore.31.Tests.csproj", "{F31EAE71-4BA5-4EDC-99AF-52847D36C380}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Plarge.DotnetExtended.Tests", "tests\Plarge.DotnetExtended.Tests\Plarge.DotnetExtended.Tests.shproj", "{909A73E9-BD04-4377-8454-C6D66EE964B7}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WouldLike.Extensions.Tests", "tests\WouldLike.Extensions.Tests\WouldLike.Extensions.Tests.shproj", "{909A73E9-BD04-4377-8454-C6D66EE964B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plarge.DotnetExtended.NetFramework.40.Tests", "tests\Plarge.DotnetExtended.NetFramework.40.Tests\Plarge.DotnetExtended.NetFramework.40.Tests.csproj", "{73BF1EC9-F44E-4948-9AFB-EA5D3AAAA0DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WouldLike.Extensions.NetFramework.40.Tests", "tests\WouldLike.Extensions.NetFramework.40.Tests\WouldLike.Extensions.NetFramework.40.Tests.csproj", "{73BF1EC9-F44E-4948-9AFB-EA5D3AAAA0DA}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		sources\Plarge.DotnetExtended\Plarge.DotnetExtended.projitems*{4f75703f-ec5c-4595-b905-eafd73b68e0e}*SharedItemsImports = 5
-		sources\Plarge.DotnetExtended\Plarge.DotnetExtended.projitems*{648a37c2-2150-431d-ae9c-902adf96f5a3}*SharedItemsImports = 4
-		tests\Plarge.DotnetExtended.Tests\Plarge.DotnetExtended.Tests.projitems*{73bf1ec9-f44e-4948-9afb-ea5d3aaaa0da}*SharedItemsImports = 4
-		tests\Plarge.DotnetExtended.Tests\Plarge.DotnetExtended.Tests.projitems*{909a73e9-bd04-4377-8454-c6d66ee964b7}*SharedItemsImports = 13
-		sources\Plarge.DotnetExtended\Plarge.DotnetExtended.projitems*{aef0d94b-c319-48e1-a888-d6fa62c9ac36}*SharedItemsImports = 13
-		tests\Plarge.DotnetExtended.Tests\Plarge.DotnetExtended.Tests.projitems*{f31eae71-4ba5-4edc-99af-52847d36c380}*SharedItemsImports = 5
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -69,5 +61,13 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C967B7F1-B058-4D96-B6D5-307B8D6AA1F6}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		sources\WouldLike.Extensions\WouldLike.Extensions.projitems*{4f75703f-ec5c-4595-b905-eafd73b68e0e}*SharedItemsImports = 5
+		sources\WouldLike.Extensions\WouldLike.Extensions.projitems*{648a37c2-2150-431d-ae9c-902adf96f5a3}*SharedItemsImports = 4
+		tests\WouldLike.Extensions.Tests\WouldLike.Extensions.Tests.projitems*{73bf1ec9-f44e-4948-9afb-ea5d3aaaa0da}*SharedItemsImports = 4
+		tests\WouldLike.Extensions.Tests\WouldLike.Extensions.Tests.projitems*{909a73e9-bd04-4377-8454-c6d66ee964b7}*SharedItemsImports = 13
+		sources\WouldLike.Extensions\WouldLike.Extensions.projitems*{aef0d94b-c319-48e1-a888-d6fa62c9ac36}*SharedItemsImports = 13
+		tests\WouldLike.Extensions.Tests\WouldLike.Extensions.Tests.projitems*{f31eae71-4ba5-4edc-99af-52847d36c380}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal

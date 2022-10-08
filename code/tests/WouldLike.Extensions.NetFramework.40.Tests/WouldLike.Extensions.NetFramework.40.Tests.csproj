@@ -10,8 +10,8 @@
     <ProjectGuid>{73BF1EC9-F44E-4948-9AFB-EA5D3AAAA0DA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Plarge.DotnetExtended.NetFramework._40.Tests</RootNamespace>
-    <AssemblyName>Plarge.DotnetExtended.NetFramework.40.Tests</AssemblyName>
+    <RootNamespace>WouldLike.Extensions.NetFramework.Tests</RootNamespace>
+    <AssemblyName>WouldLike.Extensions.NetFramework.40.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -60,12 +60,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\sources\Plarge.DotnetExtended.NetFramework.40\Plarge.DotnetExtended.NetFramework.40.csproj">
+    <ProjectReference Include="..\..\sources\WouldLike.Extensions.NetFramework.40\WouldLike.Extensions.NetFramework.40.csproj">
       <Project>{648a37c2-2150-431d-ae9c-902adf96f5a3}</Project>
-      <Name>Plarge.DotnetExtended.NetFramework.40</Name>
+      <Name>WouldLike.Extensions.NetFramework.40</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="..\Plarge.DotnetExtended.Tests\Plarge.DotnetExtended.Tests.projitems" Label="Shared" />
+  <Import Project="..\WouldLike.Extensions.Tests\WouldLike.Extensions.Tests.projitems" Label="Shared" />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

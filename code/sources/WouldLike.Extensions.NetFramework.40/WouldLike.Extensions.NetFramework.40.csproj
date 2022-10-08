@@ -7,8 +7,8 @@
     <ProjectGuid>{648A37C2-2150-431D-AE9C-902ADF96F5A3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Plarge.DotnetExtended.NetFramework._40</RootNamespace>
-    <AssemblyName>Plarge.DotnetExtended.NetFramework.40</AssemblyName>
+    <RootNamespace>WouldLike.Extensions.NetFramework</RootNamespace>
+    <AssemblyName>WouldLike.Extensions.NetFramework.40</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -45,6 +45,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <Import Project="..\Plarge.DotnetExtended\Plarge.DotnetExtended.projitems" Label="Shared" />
+  <Import Project="..\WouldLike.Extensions\WouldLike.Extensions.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

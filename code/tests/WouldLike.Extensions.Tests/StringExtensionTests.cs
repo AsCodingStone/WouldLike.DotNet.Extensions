@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using NFluent;
 
-namespace Plarge.DotnetExtended.Tests
+namespace WouldLike.Extensions.Tests
 {
     [TestFixture]
     public class StringExtensionTests

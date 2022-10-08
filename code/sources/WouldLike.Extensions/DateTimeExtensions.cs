@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Plarge.DotnetExtended
+namespace WouldLike.Extensions
 {
     public static class DateTimeExtensions
     {

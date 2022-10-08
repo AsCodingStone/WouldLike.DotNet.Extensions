@@ -6,7 +6,7 @@
     <SharedGUID>909a73e9-bd04-4377-8454-c6d66ee964b7</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>Plarge.DotnetExtended.Tests</Import_RootNamespace>
+    <Import_RootNamespace>WouldLike.Extensions.Tests</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)DateTimeExtensionTests.cs" />

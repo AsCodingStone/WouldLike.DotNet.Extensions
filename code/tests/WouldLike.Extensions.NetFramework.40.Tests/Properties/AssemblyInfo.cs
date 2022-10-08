@@ -2,12 +2,12 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Plarge.DotnetExtended.NetFramework.40.Tests")]
+[assembly: AssemblyTitle("WouldLike.Extensions.NetFramework.40.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Plarge.DotnetExtended.NetFramework.40.Tests")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCompany("AsCodingStone")]
+[assembly: AssemblyProduct("WouldLike.Extensions.NetFramework.40.Tests")]
+[assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

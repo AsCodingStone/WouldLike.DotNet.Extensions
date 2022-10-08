@@ -2,9 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Plarge.DotnetExtended.NetCore._31.Tests</RootNamespace>
+    <RootNamespace>WouldLike.Extensions.NetCore._31.Tests</RootNamespace>
 
     <IsPackable>false</IsPackable>
+
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+
+    <Copyright>Copyright ©  2022</Copyright>
+
+    <Company>AsCodingStone</Company>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,9 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\sources\Plarge.DotnetExtended.NetCore.31\Plarge.DotnetExtended.NetCore.31.csproj" />
+    <ProjectReference Include="..\..\sources\WouldLike.Extensions.NetCore.31\WouldLike.Extensions.NetCore.31.csproj" />
   </ItemGroup>
 
-  <Import Project="..\Plarge.DotnetExtended.Tests\Plarge.DotnetExtended.Tests.projitems" Label="Shared" />
+  <Import Project="..\WouldLike.Extensions.Tests\WouldLike.Extensions.Tests.projitems" Label="Shared" />
 
 </Project>

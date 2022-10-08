@@ -2,7 +2,7 @@
 using NUnit.Framework;
 using System;
 
-namespace Plarge.DotnetExtended.Tests
+namespace WouldLike.Extensions.Tests
 {
     [TestFixture]
     public class DateTimeExtensionTests
