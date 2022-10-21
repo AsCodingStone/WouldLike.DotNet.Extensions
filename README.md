@@ -1,3 +1,3 @@
 # WouldLike.DotNet.Extensions
 
-This repository defines dotNet extensions that I use.
+This repository defines #dotNet extension methods that I use.
