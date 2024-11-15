@@ -1,4 +1,4 @@
-﻿namespace WouldLike.Extensions
+﻿namespace WouldLike.Extensions.String
 {
     public static class StringExtensions
     {

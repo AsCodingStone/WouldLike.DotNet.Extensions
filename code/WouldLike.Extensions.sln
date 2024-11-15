@@ -23,6 +23,8 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WouldLike.Extensions.Tests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WouldLike.Extensions.NetFramework.40.Tests", "tests\WouldLike.Extensions.NetFramework.40.Tests\WouldLike.Extensions.NetFramework.40.Tests.csproj", "{73BF1EC9-F44E-4948-9AFB-EA5D3AAAA0DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{3D172543-0DA6-4D77-903A-08FBE4CD9A9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{73BF1EC9-F44E-4948-9AFB-EA5D3AAAA0DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73BF1EC9-F44E-4948-9AFB-EA5D3AAAA0DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73BF1EC9-F44E-4948-9AFB-EA5D3AAAA0DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D172543-0DA6-4D77-903A-08FBE4CD9A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D172543-0DA6-4D77-903A-08FBE4CD9A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D172543-0DA6-4D77-903A-08FBE4CD9A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D172543-0DA6-4D77-903A-08FBE4CD9A9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
